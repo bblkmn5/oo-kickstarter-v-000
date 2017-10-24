@@ -1,7 +1,7 @@
 class Project
 
   attr_accessor :title, :backers
-  
+
 #takes a title on initialization
   def initialize(title)
     @title = title
